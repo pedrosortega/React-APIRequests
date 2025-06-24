@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
+
 // import axios from "axios"; // Maybe we'll need axios? 🤔
 import "./style.css";
+import GifCard from "./GifCard";
 
 const GIPHY_API_KEY = "aAXJQI3cUJuaNhecvZC8rsL6p5jy1uPd";
 
@@ -33,7 +35,9 @@ const App = () => {
   return (
     <div className="app">
       <h1 className="title">Let's Make Some API Requests!</h1>
-      {getGifs()};
+ gift-card
+      <GifCard />
+     
     </div>
   );
 };
