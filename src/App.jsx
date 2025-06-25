@@ -6,8 +6,7 @@ import "./style.css";
 import "./GifCard";
 import GifCard from "./GifCard";
 import SearchField from "./SearchField";
-import GifCard from "./GifCard";
-
+// import GifCard from "./GifCard";
 
 const GIPHY_API_KEY = "aAXJQI3cUJuaNhecvZC8rsL6p5jy1uPd";
 
@@ -41,7 +40,6 @@ const App = () => {
           <GifCard key={gif.id} gif={gif} />
         ))}
       </div>
-
     </div>
   );
 };
